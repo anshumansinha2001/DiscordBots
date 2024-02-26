@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { Client, GatewayIntentBits } = require("discord.js");
 
 const client = new Client({
@@ -28,6 +29,4 @@ client.on("interactionCreate", async (interaction) => {
   interaction.reply("Pong");
 });
 
-client.login(
-  "MTIxMTYyOTYzODU1MjY1Mzg1NQ.GWMyru.HmEZ0JCG_7LTodSk23DcavJndCwSzL2dcnpLfA"
-);
+client.login(process.env.TOKEN);
