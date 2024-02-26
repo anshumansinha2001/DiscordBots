@@ -1,4 +1,4 @@
-```markdown
+
 # Discord Auto Reply Bot
 
 ![Cover](cover.png)
