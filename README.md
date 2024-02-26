@@ -24,7 +24,7 @@ A Discord bot built with Node.js that automatically replies to text messages bas
 2. Navigate to the project directory:
 
    ```bash
-   cd discord-auto-reply-bot
+   cd discordBot
    ```
 
 3. Install dependencies:
@@ -62,4 +62,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-Make sure to replace placeholders like `YOUR_DISCORD_BOT_TOKEN`, `your-username`, and add more sections or details based on the specific features and requirements of your Discord bot.
+
